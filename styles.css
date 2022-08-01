@@ -1,0 +1,42 @@
+/* CSS VARIABLES */
+:root {
+  --dark-blue-intro-email-bg: hsl(217, 28%, 15%);
+  --main-bg: hsl(218, 28%, 13%);
+  --footer-bg: hsl(216, 53%, 9%);
+  --testimonial-bg: hsl(219, 30%, 18%);
+
+  --cyan: hsl(176, 68%, 64%); /* (inside call-to-action gradient) */
+  --blue: hsl(198, 60%, 50%); /* (inside call-to-action gradient) */
+  --light-red: hsl(0, 100%, 63%); /* (error) */
+
+  ---white: hsl(0, 0%, 100%);
+}
+
+/* GENERAL CSS */
+body {
+  background-color: var(--main-bg);
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-container {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container img {
+  width: 80%;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(---white);
+}
