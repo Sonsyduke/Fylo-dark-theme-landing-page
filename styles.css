@@ -226,6 +226,8 @@ body {
 }
 
 .newsletter {
+  position: relative;
+  z-index: 5;
   background-color: var(--main-bg);
   width: 50%;
   margin: auto;
@@ -269,5 +271,67 @@ body {
   border-radius: 30px;
   border: none;
   padding: 0 20px;
+  color: var(---white);
+}
+
+/* ============ Newsletter ============ */
+/* ============ Footer ============ */
+.footer-section {
+  margin-top: -100px;
+  background-color: var(--footer-bg);
+  padding: 200px 0 100px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  color: var(---white);
+}
+
+.footer-details {
+  display: flex;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.location {
+  display: flex;
+  gap: 40px;
+  width: 40%;
+}
+
+.location img {
+  width: 3%;
+  height: 20%;
+}
+
+.footer-desc {
+  line-height: 1.5;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(---white);
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 1.5rem;
   color: var(---white);
 }
