@@ -164,3 +164,110 @@ body {
   padding-bottom: 5px;
   border-bottom: 1px solid var(--cyan);
 }
+
+/* ============ Productive ============ */
+/* ============ Testimonial ============ */
+.testimonial-service {
+  background-color: var(--main-bg);
+}
+
+.quote {
+  position: relative;
+  left: 100px;
+}
+
+.testimonials {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial {
+  background-color: var(--testimonial-bg);
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+
+.testimonial-desc {
+  font-size: 0.9rem;
+  color: var(---white);
+  line-height: 1.5;
+}
+
+.client {
+  display: flex;
+  gap: 20px;
+  color: var(---white);
+  margin-top: 20px;
+}
+
+.client img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.client-name {
+  font-size: 0.9rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.position {
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+/* ============ Testimonial ============ */
+/* ============ Newsletter ============ */
+
+.newsletter-section {
+  background-color: var(--main-bg);
+}
+
+.newsletter {
+  background-color: var(--main-bg);
+  width: 50%;
+  margin: auto;
+  color: var(---white);
+  padding: 50px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
+}
+
+.newsletter-heading {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.newsletter-desc {
+  font-size: 0.9rem;
+  margin: 20px 0 30px;
+  line-height: 1.5;
+}
+
+.sub {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 60%;
+  border-radius: 30px;
+  border: none;
+  padding-left: 30px;
+}
+
+.sub-btn {
+  background-color: var(--blue);
+  border-radius: 30px;
+  border: none;
+  padding: 0 20px;
+  color: var(---white);
+}
