@@ -7,6 +7,7 @@
 
   --cyan: hsl(176, 68%, 64%); /* (inside call-to-action gradient) */
   --blue: hsl(198, 60%, 50%); /* (inside call-to-action gradient) */
+  --blue-hover: hsl(198, 78%, 56%); /* (inside call-to-action gradient) */
   --light-red: hsl(0, 100%, 63%); /* (error) */
 
   ---white: hsl(0, 0%, 100%);
@@ -42,6 +43,10 @@ body {
   color: var(---white);
 }
 
+.links a:hover {
+  text-decoration: underline;
+}
+
 /* ============ NAVBAR ============ */
 /* ============ HERO ============ */
 .main-container {
@@ -74,12 +79,17 @@ body {
 }
 
 .mainCta {
-  width: 30%;
-  padding: 10px 0;
+  width: 40%;
+  padding: 15px 0;
   border: none;
   border-radius: 30px;
   background-color: var(--blue);
   color: var(---white);
+}
+
+.mainCta:hover {
+  cursor: pointer;
+  background-color: var(--blue-hover);
 }
 
 /* ============ Services ============ */
@@ -163,6 +173,11 @@ body {
   text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 1px solid var(--cyan);
+}
+
+.productive-content a:hover {
+  color: var(---white);
+  border-color: var(---white);
 }
 
 /* ============ Productive ============ */
@@ -274,6 +289,11 @@ body {
   color: var(---white);
 }
 
+.sub-btn:hover {
+  cursor: pointer;
+  background-color: var(--blue-hover);
+}
+
 /* ============ Newsletter ============ */
 /* ============ Footer ============ */
 .footer-section {
@@ -334,4 +354,8 @@ body {
 .socials a {
   font-size: 1.5rem;
   color: var(---white);
+}
+
+.socials a:hover {
+  font-weight: 700;
 }
