@@ -250,9 +250,9 @@ body {
   padding: 50px;
   border-radius: 5px;
   text-align: center;
-  box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
-  -webkit-box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 5px 3px 3px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .newsletter-heading {
@@ -358,4 +358,87 @@ body {
 
 .socials a:hover {
   font-weight: 700;
+}
+
+/* ============ Footer ============ */
+/* ============ Media ============ */
+@media (max-width: 1000px) {
+  .services {
+    width: 80%;
+  }
+
+  .productive-illustrator {
+    width: 50%;
+  }
+
+  .location img {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+@media (max-width: 860px) {
+  .testimonials {
+    width: 90%;
+  }
+
+  .newsletter {
+    width: 70%;
+  }
+
+  .footer-details {
+    flex-direction: column;
+  }
+
+  .location {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .location img {
+    width: 3%;
+    height: 3%;
+  }
+
+  .contact {
+    gap: 20px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    width: 80%;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .productive {
+    flex-direction: column;
+  }
+
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .sub {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .sub-btn {
+    margin-top: 10px;
+    padding: 10px;
+    width: 95%;
+  }
 }
