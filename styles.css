@@ -94,3 +94,40 @@ body {
   width: 100%;
   position: relative;
 }
+
+.services {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  text-align: center;
+}
+
+.services:nth-child(3) {
+  margin-top: 50px;
+}
+
+.service img {
+  width: 25%;
+  height: 32%;
+}
+
+.service-heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(---white);
+  margin: 50px 0 10px 0;
+}
+
+.service-desc {
+  color: var(---white);
+  line-height: 1.5;
+  font-size: 0.9rem;
+  width: 100%;
+  margin: auto;
+}
+
+/* ============ Services ============ */
+/* ============ Productive ============ */
